@@ -1,5 +1,6 @@
 %Convolution plotter for 2 signals written for MATLAB by Jacopx
 %GPL-3.0 License
+%Change input signal for calculating new convolution
 
 clear all
 close all
@@ -26,4 +27,4 @@ y=s*conv(y1,y2,'same');
 subplot(1,2,2);
 plot(t,y,'g','LineWidth',2); 
 title('Convolution Result'); %Graph Title
-grid on 
+grid on
