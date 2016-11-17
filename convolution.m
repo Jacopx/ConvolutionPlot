@@ -7,7 +7,7 @@ close all
 clc
 
 %Limits
-s=.01; a=-3.5; b=3.5;
+s=.01; a=-6; b=6;
 t = a:s:b;
 
 %SIGNAL:
