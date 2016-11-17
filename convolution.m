@@ -1,5 +1,5 @@
 %Convolution plotter for 2 signals written for MATLAB by Jacopx
-% Under GPL-3.0 ?
+%GPL-3.0 License
 
 clear all
 close all
