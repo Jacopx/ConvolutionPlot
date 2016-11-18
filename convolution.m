@@ -12,6 +12,8 @@ t = a:s:b;
 
 %SIGNAL:
 y1=rectangularPulse(-2,2,t); %first
+%y1=triangularPulse(t);
+%y1=sinc(t);
 y2=rectangularPulse(-3,3,t); %second
 
 %Plot original signal
